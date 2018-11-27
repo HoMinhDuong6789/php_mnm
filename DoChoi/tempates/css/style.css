@@ -1,0 +1,403 @@
+.clr{
+	 clear: both;
+}
+a{
+	text-decoration:none;
+	font-weight:bold;
+}
+body{
+	background: url("/Theme/DoChoi/file/images/bg.png");
+}
+/*Css cho header*/
+.header{
+	background:white;
+	opacity:0.7;
+	height:146px;
+	padding-right:112px;
+	padding-left:112px;
+}
+.header .img{
+	width:300px;
+}
+.menu{
+	background: #63b814;
+	height:40px;
+}
+.menu img{
+	width:38px;
+	float:left;
+}
+.menu li{
+	float:left;
+	list-style:none;
+	border-right:1px solid #b6e0b4;
+	border-left:1px solid #50b34a;
+	padding:10px;
+}
+.menu li:first-child{
+	 border-left:none;
+}
+.menu li:last-child{
+	 border-right:none;
+}
+.menu li:hover{
+	background:#71c265;
+}
+.menu ul {
+	width: 70%;
+	display:inline;
+}
+.menu a{
+	color:white;
+	text-align:justify;
+}
+/*Css cho phần giới thiệu*/
+.gioithieu{
+	 margin-left: 85px;
+    width: 472px;
+}
+.gioithieu img{
+	 border: 1px solid #77c62e;
+    border-radius: 37.5px;
+    margin-left: 28px;
+    padding: 5px;
+    width: 412px;
+}
+.gioithieu img:hover{
+	border: 1px solid pink;
+	opacity:0.8;
+}
+.gioithieu h3{
+	font-family: "Comic Sans MS";
+    font-size: 24px;
+    text-align: center;
+	color:#4b7c1f;
+}
+.gioithieu p{
+	font-family: "Comic Sans MS";
+    font-size: 19px;
+    text-align: center;
+	color:#4b7c1f;
+}
+/*Css cho wrapper*/
+.wrapper{
+	/*border: 1px solid red;*/
+   width:100%;
+	background: url("/Theme/DoChoi/file/images/bg.png");
+ }
+/*Css cho body */
+.wrapper .body{
+	/*border: 1px solid red;*/
+	width:995px;
+    margin:0px auto;
+	background:white;
+}
+/*Css cho class body 2*/
+.wrapper .body2{
+	/*border: 1px solid green;*/
+	width:965px;
+	margin:0px auto;
+}
+.wrapper .body .background-top{
+	/*border: 1px solid blue;*/
+	width:960px;
+	margin:0px auto;
+	background:url("/Theme/DoChoi/file/images/top_08.png") no-repeat bottom /967px ;
+	height:50px;
+}
+.wrapper .body .background-top p{
+	display:inline;
+	margin-left:754px;
+}
+.wrapper .body .background-bottom{
+	/*border: 1px solid blue;*/	
+	width:950px;
+	margin:0px auto;
+	background:url("/Theme/DoChoi/file/images/top_11.png") no-repeat bottom /964px;
+	height:32px;
+}
+/*Css cho khối trái - tìm kiếm*/
+.wrapper .trai{
+	width: 230px;
+	background: url("/Theme/DoChoi/file/images/bot_left.png") no-repeat scroll left bottom;
+	background-size:230px;
+	margin-left:20px;
+	height:208px;
+	margin-bottom:20px;
+}
+.wrapper .trai form{
+	margin-left:15px;
+}
+.wrapper .trai  select{
+	margin-left:10px;
+	padding-right:40px;
+	text-align:center;
+}
+.wrapper  .trai  input{
+	float:right;
+	padding:5px;
+	border: 1px solid #88cb7c;
+	background:#77c62e;
+	width:80px;
+	color:white;
+	font-weight:bold;
+	border-radius:10px;
+	margin-right:24px;
+}
+.wrapper  .trai  input:hover{
+	background:#8ed64e;
+}
+/*Css trai - Danh mục*/
+.wrapper  .trai li{
+	padding-left:18px;
+	background:url("/Theme/DoChoi/file/images/bg_dangky_03.png") no-repeat left center;
+	list-style:none;
+}
+.wrapper  .trai .danhmuc ul{
+	margin-left:-22px;
+}
+.wrapper  .trai p{
+	color:#3f750d;
+	font-weight: bold;
+    text-decoration: none;
+}
+.wrapper  .trai .danhmuc a{
+	color:#3f750d;
+	font-weight: bold;
+    text-decoration: none;
+}
+.wrapper  .trai .danhmuc a:hover{
+	color:#1d3506;
+	text-decoration:underline;
+}
+/*Css trai2*/
+.wrapper  .trai2{
+	/*border: 1px solid blue;*/
+	float:left;
+	background:url("/Theme/DoChoi/file/images/top_09.png") no-repeat left;
+	margin-left: 7px;
+	height:100%;
+}
+.wrapper .tieude {
+	background: url("/Theme/DoChoi/file/images/top_left.png") no-repeat;
+	height:40px;
+	background-size:230px;
+	text-align:center;
+	padding:5px;
+	color:white;
+	font-weight:bold;
+}
+/*Css cho khối phải - loại đồ chơi*/
+.phai2{
+	float:left;
+	width:675px;
+	margin-left: 26px;
+	background:url("/Theme/DoChoi/file/images/top_10.png") no-repeat right;
+	height:100%;
+}
+.phai{
+	/*border: 1px solid #88cb7c;*/
+	width:632px;
+}
+.noidung2{
+	margin-left:50px;
+	 margin-top: 20px;
+}
+.noidung2 ul{
+	margin-left:-25px;
+}
+.noidung2 li{
+	padding-left:18px;
+	background:url("/Theme/DoChoi/file/images/bg_dangky_03.png") no-repeat left center;
+	list-style:none;
+}
+.noidung2 a{
+	color:#3f750d;
+}
+/*Nội dung 3*/
+.noidung3 input{
+	margin-left:10px;
+	background: #77c62e;
+    border: 1px solid #88cb7c;
+    border-radius: 18px;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    width: 58px;
+}
+.noidung3  input:hover{
+	background:#8ed64e;
+}
+#chitiet{
+	color:white;
+	text-align:center;
+	border-radius:32.5px;
+	background:#fe9025;
+	padding:3px;
+	font-size: 13px;
+}
+.mua{
+	padding:3px;
+}
+.noidung2 a:hover{
+	color:#1d3506;
+	text-decoration:underline;
+}
+.noidung2 h4{
+	color:white;
+	width:240px;
+	text-align:center;
+	border-radius:32.5px;
+	background:#79c730;
+	padding:3px;
+	box-shadow: 4px 4px #d4d4d4;
+}
+.noidung2 .dinhnghia p{
+	color: #3f750d;
+	font-weight: bold;
+	width:547px;
+}
+.noidung{
+	background: url("/Theme/DoChoi/file/images/top_sanpham2.png") no-repeat bottom/601px  ;
+	width:645px;
+	height:82%;
+	margin-left:-7px;
+	margin-top:-155px;
+}
+/*Css nodung 2 của chi tiết*/
+.CT{
+	width:550px;
+}
+.CT p{
+	display: inline;
+    font-size: 17px;
+    margin-bottom: -12px;
+    margin-left: 2px;
+}
+/*Css noidung2 của class dochoi (DoChoi)*/
+.noidung2 .dc {
+	background:none;
+	  float: left;
+    font-size: 13px;
+    margin-right: 30px;
+    width: 82px;
+}
+.noidung2 .item1 img{
+	border: 1px solid #8fca57;
+    border-radius: 10px;
+	 padding: 3px;
+    height: 95px;
+	width: 92px;
+}
+.noidung2 .item1 img:hover{
+	opacity:0.5;
+}
+.noidung2 .item2{
+	color:#3f750d;
+	padding-left:18px;
+	background:url("/Theme/DoChoi/file/images/bg_dangky_03.png") no-repeat left center;
+}
+/*Css noidung 2 - dc2 của dochoi2*/
+.noidung2 .dochoi2 {
+	width:629px;
+	margin-left:-12px;
+	height:465px;
+	
+}
+.noidung2 .dochoi2 .dc2 {
+	margin-bottom: 12px;
+    margin-right: 31px;
+    width: 87px;
+}
+.noidung2 .dochoi2 .dc2 .item1 img{
+	height: 92px;
+    width: 86px;
+}
+.noidung2 .dochoi2 .dc2 .item2{
+	font-size:12px;
+}
+/*Css noidung2 của class nha_bl (ctnpp)*/
+.noidung2 .nha_bl{
+	width:524px;
+}
+.noidung2 .nha_bl p{
+	  font-size: 16px;
+    margin-bottom: -15px;
+}
+/*Css noidung2 của class dc_khac(ChiTiet)*/
+.noidung2 .dc_khac .dc{
+	background:none;
+	float: left;
+    font-size: 13px;
+    margin-right: 41px;
+    width: 91px;
+	margin-bottom:10px;
+}
+.noidung2 .dc_khac .dc img{
+	 border: 1px solid #8fca57;
+    border-radius: 10px;
+	 padding: 3px;
+    height: 95px;
+	width: 92px;
+}
+.noidung2 .dc_khac .item2{
+	color:#3f750d;
+	padding-left:16px;
+	background:url("/Theme/DoChoi/file/images/bg_dangky_03.png") no-repeat left center;
+}
+/*Class dochoi của đồ chơi*/
+.dochoi{
+	margin-left:4px;
+}
+/*Tiêu đề 2*/
+.tieude2{
+	/*border: 1px solid blue;*/
+	background: url("/Theme/DoChoi/file/images/top_sanpham.png") no-repeat top /627px;
+	height:212px;
+	width:632px;
+}
+.tieude2 h3{
+	color:#fe8a22;
+	margin-left: 44px;
+    padding-top: 18px;
+}
+/*Tiêu đề của kĩ năng*/
+.tieude4{
+	/*border: 1px solid blue;*/
+	background: url("/Theme/DoChoi/file/images/top_sanpham.png") no-repeat top /627px;
+	height:212px;
+	width:632px;
+}
+.tieude4 h4{
+	color:#fe8a22;
+	margin-left: 35px;
+	margin-top:-2px;
+}
+.tieude4 .tren{
+	padding-top:6px;
+}
+.tieude4 p{
+	display:inline;
+	color:#fe8a22;
+	font-weight:bold;
+	margin-left: 35px;
+}
+/*Css cho footer*/
+.footer{
+	margin-top: -15px;
+	height:50px;
+	background:white;
+	opacity:0.5;
+}
+.footer p{
+	float:right;
+	margin-right:40px;
+	
+	
+}
+
+
+
+
+
+
